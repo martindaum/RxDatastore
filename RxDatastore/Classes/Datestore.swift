@@ -5,7 +5,7 @@
 //  Created by Martin Daum on 11.02.19.
 //
 
-import UIKit
+import Foundation
 import RealmSwift
 import RxSwift
 
@@ -90,6 +90,6 @@ public final class Datastore {
 
 extension Results {
     func asObservable() -> Observable<Results> {
-        return Observable.from(self)
+        return Observable.from(optional: self)
     }
 }

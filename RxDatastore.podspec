@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RxDatastore'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'Datastore using RxSwift and RealmSwift'
 
 # This description is used to generate tags and improve search results.
@@ -24,10 +24,10 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/martindaum/RxDatastore.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '8.0'
   s.osx.deployment_target = '10.10'
-  s.tvos.deployment_target = '10.0'
-  s.watchos.deployment_target = '3.0'
+  s.tvos.deployment_target = '8.0'
+  s.watchos.deployment_target = '2.0'
   
   s.source_files = 'RxDatastore/Classes/**/*'
   s.swift_version = '4.2'

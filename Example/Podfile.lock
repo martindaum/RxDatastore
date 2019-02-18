@@ -5,7 +5,7 @@ PODS:
   - RealmSwift (3.13.1):
     - Realm (= 3.13.1)
   - RxAtomic (4.4.1)
-  - RxDatastore (0.1.0):
+  - RxDatastore (1.0.1):
     - RealmSwift
     - RxSwift
   - RxSwift (4.4.1):
@@ -29,7 +29,7 @@ SPEC CHECKSUMS:
   Realm: 50071da38fe079e0735e47c9f2eae738c68c5996
   RealmSwift: 8a1e6a02b7a08cd17a31e3115143fb69fe5f3fb9
   RxAtomic: f8d6adc1ccb87a767811269e4875887bc74dbf19
-  RxDatastore: b2d47c8768cf9ea8018ed1596b194ce4163f2bd7
+  RxDatastore: e6c3c989afab04ad6b7a8c24bec6e5560d1ca2bb
   RxSwift: 92fcf68dfef21f3e2ab1965363d9e7b3d787597e
 
 PODFILE CHECKSUM: 23e09535b115496a73334eccd6a452a01b46ed41
