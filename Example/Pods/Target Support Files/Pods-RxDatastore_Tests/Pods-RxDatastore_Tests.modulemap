@@ -1,0 +1,6 @@
+framework module Pods_RxDatastore_Tests {
+  umbrella header "Pods-RxDatastore_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

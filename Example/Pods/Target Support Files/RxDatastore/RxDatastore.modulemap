@@ -1,0 +1,6 @@
+framework module RxDatastore {
+  umbrella header "RxDatastore-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'RxDatastore_Example' do
+  pod 'RxDatastore', :path => '../'
+
+  target 'RxDatastore_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
